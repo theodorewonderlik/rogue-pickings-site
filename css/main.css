@@ -1,0 +1,147 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 30%;
+    float: left;
+}
+
+/***** HEADER SECTION *****/
+
+header {
+    height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a466;
+    line-height: 23px;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header span {
+    color: #000000;
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 10px;
+}
+
+/***** TOP SECTION *****/
+
+#top-section img {
+    border-top: #77a466 solid 3px;
+    border-bottom: #77a466 solid 3px;
+}
+
+#welcome {
+    padding: 30px;
+}
+
+#welcome h2 {
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #77a466;
+}
+
+#welcome p {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section {
+    border-top: #dedbdc solid 1px;
+    border-bottom: #dedbdc solid 1px;
+    overflow: auto;
+}
+
+#bottom-section h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#bottom-section p {
+    font-size: 16px;
+}
+
+#specials {
+    padding: 20px;
+}
+
+#reviews {
+    border-left: #dedbdc solid 1px;
+    border-right: #dedbdc solid 1px;
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}
+
+#specials p {
+    line-height: 18px;
+    color: #77a466;
+}
+
+#reviews p {
+    line-height:  21px;
+}
+
+#contact p {
+    line-height: 24px;
+}
+
+/***** FOOTER SECTION *****/
+
+footer {
+    clear: both;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+}
+
+footer span{
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    color: #77a466;
+}
